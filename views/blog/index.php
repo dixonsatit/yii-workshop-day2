@@ -27,6 +27,8 @@ $this->params['breadcrumbs'][] = $this->title;
             'id',
             'title',
             [
+              'contentOptions'=>['class'=>'text-center'],
+              'options'=>['style'=>'width:100px;'],
               'attribute'=>'title',
               'header'=>'รหัส + ชื่อเรื่อง',
               'format'=>'html',

@@ -9,6 +9,9 @@ $config = [
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'components' => [
+        'formatter'=>[
+            'class'=>'dixonsatit\thaiYearFormatter\ThaiYearFormatter',
+        ],
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
             'cookieValidationKey' => 'zRwBsMUU6mRkp5l8jvC9cp1EXrLJ_M0O',
@@ -39,7 +42,15 @@ $config = [
                 ],
             ],
         ],
-        'db' => require(__DIR__ . '/db.php'),
+        'db'  => require(__DIR__ . '/db.php'),
+        'db2' => require(__DIR__ . '/db2.php'),
+        'db3' =>[
+            'class' => 'yii\db\Connection',
+            'dsn' => 'mysql:host=127.0.0.1;dbname=yii2-workshop-day2',
+            'username' => 'root',
+            'password' => 'root',
+            'charset' => 'utf8',
+        ]
     ],
     'params' => $params,
 ];
