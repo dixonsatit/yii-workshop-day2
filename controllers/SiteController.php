@@ -51,7 +51,7 @@ class SiteController extends Controller
 
     public function actionIndex()
     {
-        $this->layout = 'homepage';
+        //$this->layout = 'homepage';
         return $this->render('index');
     }
 

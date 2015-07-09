@@ -5,7 +5,15 @@ use yii\grid\GridView;
 /* @var $this yii\web\View */
 /* @var $searchModel app\models\BlogSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
+echo Yii::$app->formatter->asDate(time(), 'short')."<br>";
+echo Yii::$app->formatter->asDate(time(), 'medium')."<br>";
+echo Yii::$app->formatter->asDate(time(), 'long')."<br>";
+echo Yii::$app->formatter->asDate(time(), 'full')."<br><hr>";
 
+echo Yii::$app->formatter->asDateTime(time(), 'short')."<br>";
+echo Yii::$app->formatter->asDateTime(time(), 'medium')."<br>";
+echo Yii::$app->formatter->asDateTime(time(), 'long')."<br>";
+echo Yii::$app->formatter->asDateTime(time(), 'full')."<br>";
 $this->title = Yii::t('app', 'Blogs');
 $this->params['breadcrumbs'][] = $this->title;
 ?>

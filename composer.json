@@ -20,7 +20,7 @@
         "yiisoft/yii2-swiftmailer": "*",
         "2amigos/yii2-chartjs-widget": "~2.0",
         "miloschuman/yii2-highcharts-widget": "dev-master",
-        "dixonsatit/yii2-thai-year-formatter": "*"
+        "dixonsatit/yii2-thai-year-formatter": "0.9.6"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",

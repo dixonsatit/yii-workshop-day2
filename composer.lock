@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "405d6d243056c1639d3e2323fcc97003",
+    "hash": "c2b569951c80aa41f6c77aadf681cb9e",
     "packages": [
         {
             "name": "2amigos/yii2-chartjs-widget",
@@ -356,16 +356,16 @@
         },
         {
             "name": "dixonsatit/yii2-thai-year-formatter",
-            "version": "0.9.4",
+            "version": "0.9.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dixonsatit/yii2-thai-year-formatter.git",
-                "reference": "11278e9561048f472e39042d8c99eb4d0befbb12"
+                "reference": "35667e16b4d544b3dcc65b987ef1ee6c1f38cf97"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dixonsatit/yii2-thai-year-formatter/zipball/11278e9561048f472e39042d8c99eb4d0befbb12",
-                "reference": "11278e9561048f472e39042d8c99eb4d0befbb12",
+                "url": "https://api.github.com/repos/dixonsatit/yii2-thai-year-formatter/zipball/35667e16b4d544b3dcc65b987ef1ee6c1f38cf97",
+                "reference": "35667e16b4d544b3dcc65b987ef1ee6c1f38cf97",
                 "shasum": ""
             },
             "require": {
@@ -392,7 +392,7 @@
                 "extension",
                 "yii2"
             ],
-            "time": "2015-07-01 12:42:57"
+            "time": "2015-07-02 02:38:03"
         },
         {
             "name": "ezyang/htmlpurifier",
